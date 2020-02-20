@@ -26,4 +26,4 @@ production:
   <<: *default
   database: myapp_production
   username: myapp
-  password: <%= ENV[10119065wrjf$!]%>
+  password: <%= ENV['10119065wrjf$!']%>
